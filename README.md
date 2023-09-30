@@ -22,7 +22,7 @@ Differences between daoflix and convensional streaming services
 
 5. **Movies that were rented online suddenly disappear:** Many users have experienced the frustrating situation where movies or content they've rented online suddenly vanish from their libraries due to licensing agreements or other reasons. Daoflix aims to offer greater transparency and consistency in content availability, ensuring that once users have access to a piece of content, they can enjoy it without unexpected interruptions or removals. This enhances the reliability and trustworthiness of the platform.
 
-##### Token
+#### Token
 
 The DaoFlix governace token is called DFT, the token starts in the conctract's tresurey and to own a token, you need to deposit 1TFil to aquire one token. The streaming service will be pay per view. THis ensures that you do not pay for movies you are never going to watch. A viewer get some DFTs when they watch a movie, this means that they can now take part in some of the decisions.
 
@@ -30,7 +30,7 @@ The DaoFlix governace token is called DFT, the token starts in the conctract's t
 
 To produce a movie, you first have to sell the idea, if the DAO likes it, you need to propose the budjet, propose the crew and the cast, then finally after production, you need to store the actuall movie on filecoin. We are using FEVM and lighthouse to propose a storage deals on
 
-##### Ideation
+#### Ideation
 
 Proposers propose a movie by providing the name as a string and movie plot in a text file, The DAO uses lighthouse SDK to upload the plot file in proposer's storage, and encrytpting the file such that only "DFT" holders can access it
 
@@ -38,19 +38,19 @@ Proposers propose a movie by providing the name as a string and movie plot in a 
 
 If the DAo likes the movie idea, the movie moves to pre production. Here, the DAO votes on proposals pertaining to budjets, crew, cast etc.
 
-###### In production
+##### In production
 
 The movie is created,
 
-##### Post production
+#### Post production
 
 After the movie is created, the DAO votes on proposals pertaining storage deals, on where to store the movie
 
-##### Token rewards
+#### Token rewards
 
 Movie viewers get rewarded on wwatching movies and for uploading usage data to the dao.
 
 ### Whats next.
 
-Add more flexible proposal functionality
-Create a separate Utility token for movie viewers.
+* Add more flexible proposal functionality
+* Create a separate Utility token for movie viewers.
