@@ -5,7 +5,7 @@ const movieDaoAddress = "0x651e9bd6f86f50d228Db7FEBc6b50156697B3D8f";
 const tokenAddress = "0x936445C25057F80A3C9C2e2e6C50369D1Fa38D52";
 const timelockAddress = "0xe5f3888D0557D7Aa9A21cB926EE910B48D16D3D8";
 const chainId = "314159";
-const pb = new PocketBase("http://127.0.0.1:8090");
+const pb = new PocketBase('https://black-secretary.pockethost.io');
 pb.autoCancellation(false);
 
 function truncateString(inputString, maxLength) {
