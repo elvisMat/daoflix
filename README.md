@@ -34,11 +34,11 @@ To produce a movie, you first have to sell the idea, if the DAO likes it, you ne
 
 Proposers propose a movie by providing the name as a string and movie plot in a text file, The DAO uses lighthouse SDK to upload the plot file in proposer's storage, and encrytpting the file such that only "DFT" holders can access it
 
-##### Pre-Production
+#### Pre-Production
 
 If the DAo likes the movie idea, the movie moves to pre production. Here, the DAO votes on proposals pertaining to budjets, crew, cast etc.
 
-##### In production
+#### In production
 
 The movie is created,
 
@@ -50,6 +50,8 @@ After the movie is created, the DAO votes on proposals pertaining storage deals,
 
 Movie viewers get rewarded on wwatching movies and for uploading usage data to the dao.
 
+#### Deployment 
+Individual folders have readme for deployment
 ### Whats next.
 
 * Add more flexible proposal functionality
