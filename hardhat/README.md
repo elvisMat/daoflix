@@ -55,7 +55,10 @@ Type in the following command in the terminal to deploy all contracts:
 
  ```
 yarn hardhat deploy
+
 ```
+copy the deployed cconstract addresses to frontend/src/helpers
+
 
 This will compile all the contracts in the contracts folder and deploy them automatically! The deployments scripts can be found in the deploy folder. This should also generate a deployments directory which can referenced for the address and details of each deployment.
 
